@@ -1,0 +1,80 @@
+@font-face {
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-family:abul;
+}
+
+.header{
+  background-image: url(images/bg.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+
+  padding:300px 0px;
+}
+.mid{
+  max-width:1000px;
+  width:80%;
+  margin: auto;
+}
+.header-top{
+  padding:8px 0px;
+  background-image: url(images/header-cut.png);
+  background-repeat:repeat-x;
+  border-bottom:1px solid #31363c;
+  margin-top:-301px;
+  color:#fff;
+
+}
+.header-top ul:nth-child(1) li{
+  display: inline-block;
+  font-family:abul;
+  font-size:13px;
+}
+.header-top ul:nth-child(1) li:nth-child(2){
+  margin-left:10px;
+}
+.header-top ul:nth-child(1) li:nth-child(4){
+  margin-left:10px;
+}
+.header-top ul:nth-child(1) li:nth-child(6){
+  margin-left:10px;
+}
+.header-top ul:nth-child(1) li:nth-child(3){
+  margin-left:30px;
+}
+.header-top ul:nth-child(1) li:nth-child(5){
+  margin-left:30px;
+}
+.header ul:nth-child(2){
+  float: right;
+  margin-top:-25px;
+
+}
+.header ul:nth-child(2) li{
+  display: inline-block;
+}
+.header ul:nth-child(2) li:nth-child(2){
+  margin-left:23px;
+}
+.header ul:nth-child(2) li:nth-child(3){
+  margin-left:23px;
+}
+.header ul:nth-child(2) li:nth-child(4){
+  margin-left:23px;
+}
+.header ul:nth-child(2) li:nth-child(5){
+  margin-left:23px;
+  margin-right:20px;
+}
+.header ul:nth-child(2) li:nth-child(6){
+  margin-left:5px;
+  border-left:1px solid #31363c;
+  padding:7px 20px;
+}
+.header-bottom{
+  padding:31px 0px;
+  background-image: url(images/header-cut.png);
+  background-repeat: repeat;
+
+
+
+}
