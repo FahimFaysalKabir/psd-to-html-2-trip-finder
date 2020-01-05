@@ -8,7 +8,7 @@
   -webkit-background-size:cover;
   background-size:cover;
 
-  padding:300px 0px;
+  padding:350px 0px;
 }
 .mid{
   max-width:1000px;
@@ -20,7 +20,7 @@
   background-image: url(images/header-cut.png);
   background-repeat:repeat-x;
   border-bottom:1px solid #31363c;
-  margin-top:-301px;
+  margin-top:-350px;
   color:#fff;
 
 }
