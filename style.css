@@ -2,13 +2,19 @@
   src: url(fonts/OpenSans-Regular.ttf);
   font-family:abul;
 }
-
+@font-face {
+  src: url(fonts/big_noodle_titling.ttf);
+  font-family:kashem;
+}
+/* header section starts here */
 .header{
+
   background-image: url(images/bg.jpg);
   -webkit-background-size:cover;
   background-size:cover;
+  height:750px;
 
-  padding:350px 0px;
+
 }
 .mid{
   max-width:1000px;
@@ -20,7 +26,7 @@
   background-image: url(images/header-cut.png);
   background-repeat:repeat-x;
   border-bottom:1px solid #31363c;
-  margin-top:-350px;
+
   color:#fff;
 
 }
@@ -52,6 +58,9 @@
 .header ul:nth-child(2) li{
   display: inline-block;
 }
+.header ul:nth-child(2) li a{
+  color:#fff;
+}
 .header ul:nth-child(2) li:nth-child(2){
   margin-left:23px;
 }
@@ -71,10 +80,500 @@
   padding:7px 20px;
 }
 .header-bottom{
-  padding:31px 0px;
+  padding:35px 0px;
   background-image: url(images/header-cut.png);
   background-repeat: repeat;
+}
+.header-bottom .logo{
+  width:40%;
+  float: left;
+}
+.header-bottom .logo img{
+  margin-top:-23px;
+}
+.header-bottom .menu{
+  width:60%;
+  float: right;
+}
+.header-bottom .menu ul{
+  margin-top:-13px;
+}
+.header-bottom .menu ul li{
+  display: inline-block;
+}
+.header-bottom .menu ul li a{
+  color:#fff;
+  font-family:abul;
+  padding:0px 20px;
+}
+.header-lorem-banner{
+  background-image: url(images/header-lorem-banner.png);
+  background-repeat:repeat;
+  padding:70px 0px;
+  margin-top:505px;
+}
+.header-lorem-banner .lorem{
+  width:50%;
+  float: left;
+  margin-top:-23px;
+}
+.header-lorem-banner .lorem p{
+  color:#fff;
+  font-family:abul;
+}
+.header-body .para{
+  width:50%;
+  float: left;
+  color:#fff;
 
+  margin-top:206px;
+}
+.header-body .para h1{
+  font-family:kashem;
+  font-size:55px;
+  font-weight:normal;
+}
+.header-body .para h2{
+  font-family:abul;
+  font-size:25px;
+  font-weight:normal;
+  margin-top:-21px;
+}
+.search-box{
+  width:400px;
+  height:500px;
+  background-color:#fff;
+  float: left;
+  margin-top:68px;
+}
+.search-box h1{
+  font-family:kashem;
+  font-size:59px;
+  color:#606060;
+  font-weight:normal;
+  text-align: center;
+  margin-top:20px;
+  letter-spacing:4px;
+}
+.search-box h2{
+  font-family:abul;
+  font-size:17px;
+  color:#606060;
+  font-weight:normal;
+  text-align: center;
+  margin-top:-34px;
+  padding-top:5px;
+  padding-bottom:10px;
+}
+.search-box input[type="text"]{
+  display:block;
 
+  padding:10px 70px;
+  background-color:#f2f2f2;
+  color:#000;
+  font-size:14px;
+  border:1px solid transparent;
+  border-radius:5px;
+  font-family:abul;
+  margin: auto;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+.search-box input[type="text"]::placeholder{
+  margin-left:-10px;
+}
+.search-box input[type="submit"]{
+  padding:14px 125px;
+  background-color: #006fe5;
+  font-family:abul;
+  font-weight:bold;
+  color:#fff;
+  border:1px solid transparent;
+  border-radius:5px;
+  margin-left:9px;
+  margin: auto;
+  display: block;
+  margin-top:29px;
+  font-size:13px;
+}
+/* header section ends here */
+/* find-a-tour section starts here */
+.find-a-tour{
+  background-image: url(images/find-a-tour.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:550px;
+  overflow: hidden;
+}
+.find-a-tour h1{
+  font-family:kashem;
+  text-align:center;
+  color:#5c5c5c;
+  font-size:42px;
+  font-weight:normal;
+  letter-spacing:2px;
+  margin-top:63px;
+}
+.find-a-tour p{
+  font-family:abul;
+  text-align: center;
+  color:#5c5c5c;
+  font-size:16px;
+  margin-bottom:70px;
+}
+.find-a-tour .div1{
+  float: left;
+}
+.find-a-tour .div2{
+  float: left;
+ margin-left:25px;
 
+}
+.find-a-tour .div3{
+  float: left;
+  margin-left:25px;
+
+}
+.find-a-tour .div4{
+  float: left;
+  margin-left:25px;
+
+}
+.find-a-tour .div1 img,.div2 img,.div3 img,.div4 img{
+  width:180px;
+  height:180px;
+}
+.circle{
+
+    margin:auto;
+    width:80%;
+    display: block;
+}
+/* find-a-tour section ends here */
+/* deals section starts here */
+.deals{
+  height:700px;
+  background-image: url(images/deals.png);
+  -webkit-background-size:cover;
+   background-size:cover;
+   background-position: center center;
+   overflow: hidden;
+
+}
+.deals h1{
+  font-family:kashem;
+  font-size:45px;
+  color:#fff;
+  text-align: center;
+  font-weight:normal;
+  margin-top:62px;
+}
+.box1{
+  width:300px;
+  height:500px;
+  float: left;
+  background-color:#fff;
+}
+.box1 .box1-bottom h1{
+font-family:kashem;
+font-size:46px;
+color:#595959;
+margin-top:12px;
+}
+.box1 .box1-bottom p{
+font-family:abul;
+font-size:13px;
+color:#595959;
+margin-left:13px;
+margin-right:13px;
+margin-top:-17px;
+}
+.box1 .box1-bottom a{
+
+  width:140px;
+
+  background-color:#006fe5;
+  border-radius:5px;
+  color:#fff;
+  font-family:abul;
+  font-size:14px;
+  margin:auto;
+  display: block;
+  text-align:center;
+  padding:12px;
+  margin-top:20px;
+}
+.box2 .box2-bottom h1{
+font-family:kashem;
+font-size:46px;
+color:#595959;
+margin-top:12px;
+}
+.box2 .box2-bottom p{
+font-family:abul;
+font-size:13px;
+color:#595959;
+margin-left:13px;
+margin-right:13px;
+margin-top:-17px;
+}
+.box2 .box2-bottom a{
+
+  width:140px;
+
+  background-color:#006fe5;
+  border-radius:5px;
+  color:#fff;
+  font-family:abul;
+  font-size:14px;
+  margin:auto;
+  display: block;
+  text-align:center;
+  padding:12px;
+  margin-top:20px;
+}
+.box3 .box3-bottom h1{
+font-family:kashem;
+font-size:46px;
+color:#595959;
+margin-top:12px;
+}
+.box3 .box3-bottom p{
+font-family:abul;
+font-size:13px;
+color:#595959;
+margin-left:13px;
+margin-right:13px;
+margin-top:-17px;
+}
+.box3 .box3-bottom a{
+
+  width:140px;
+
+  background-color:#006fe5;
+  border-radius:5px;
+  color:#fff;
+  font-family:abul;
+  font-size:14px;
+  margin:auto;
+  display: block;
+  text-align:center;
+  padding:12px;
+  margin-top:20px;
+}
+.box1 .box1button1{
+  width:140px;
+  height:50px;
+  background-color:#479fff;
+  background:linear-gradient(#479fff,#469ffb);
+  margin: auto;
+  margin-top:-19px;
+  border-radius:5px;
+}
+.box2 .box2button1{
+  width:140px;
+  height:50px;
+  background-color:#479fff;
+  background:linear-gradient(#479fff,#469ffb);
+  margin: auto;
+  margin-top:-19px;
+  border-radius:5px;
+}
+.box3 .box3button1{
+  width:140px;
+  height:50px;
+  background-color:#479fff;
+  background:linear-gradient(#479fff,#469ffb);
+  margin: auto;
+  margin-top:-19px;
+  border-radius:5px;
+}
+.box1 .box1-top{
+  height:50%;
+
+  background-image: url(images/box1.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.box2{
+  width:300px;
+  height:500px;
+  float: left;
+  background-color:#fff;
+  margin-left:50px;
+}
+.box2 .box2-top{
+  height:50%;
+
+  background-image: url(images/box2.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.box3{
+  width:300px;
+  height:500px;
+  float: left;
+  background-color:#fff;
+    margin-left:50px;
+}
+.box3 .box3-top{
+  height:50%;
+
+  background-image: url(images/box3.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.box1button1 h6{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:24px;
+  color:#fff;
+  margin-left:15px;
+  margin-top:9px;
+}
+.box1button1 h5{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:30px;
+  color:#fff;
+  margin-top:5px;
+}
+.box2button1 h6{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:24px;
+  color:#fff;
+  margin-left:15px;
+  margin-top:9px;
+}
+.box2button1 h5{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:30px;
+  color:#fff;
+  margin-top:5px;
+}
+.box3button1 h6{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:24px;
+  color:#fff;
+  margin-left:15px;
+  margin-top:9px;
+}
+.box3button1 h5{
+  width:40%;
+  float: left;
+  font-family:kashem;
+  font-size:30px;
+  color:#fff;
+  margin-top:5px;
+}
+/* deals section ends here */
+/* beautiful section starts here */
+.beautiful{
+  padding:50px 0px;
+}
+.beautiful h1{
+  font-family:kashem;
+  font-size:46px;
+  text-align: center;
+  color:#525252;
+  font-weight:normal;
+}
+/* beautiful section ends here */
+/* trip section starts here */
+.trip{
+  height:600px;
+}
+.trip-top{
+  height:50%;
+  width:95%;
+  margin:auto;
+}
+.trip .trip-top .trip-top1{
+  width:32%;
+  height:100%;
+  float: left;
+  margin-right:3px;
+  background-image: url(images/trip1.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+.trip .trip-top .trip-top1 h2{
+  font-family:abul;
+  color:#fff;
+  font-size:22px;
+  text-align: center;
+  margin-top:123px;
+}
+.trip .trip-top .trip-top1 h3{
+  font-family:abul;
+  color:#fff;
+  font-size:14px;
+  text-align: center;
+}
+.trip .trip-top .trip-top2{
+  width:32%;
+  height:100%;
+  float: left;
+  margin-right:3px;
+  background-image: url(images/trip2.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+
+}
+
+.trip .trip-top .trip-top3{
+  width:32%;
+  height:100%;
+  float: left;
+  background-image: url(images/trip3.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+
+.trip-bottom{
+
+  height:50%;
+  width:95%;
+  margin:auto;
+}
+.trip .trip-bottom .trip-bottom1{
+  width:32%;
+  height:100%;
+  float: left;
+  margin-right:3px;
+  margin-top:3px;
+  background-image: url(images/trip4.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+
+.trip .trip-bottom .trip-bottom2{
+  width:32%;
+  height:100%;
+  float: left;
+  margin-right:3px;
+  margin-top:3px;
+  background-image: url(images/trip5.png);
+  -webkit-background-size:cover;
+  background-size:cover;
+}
+
+.trip .trip-bottom .trip-bottom3{
+  width:32%;
+  height:100%;
+  float: left;
+  margin-top:3px;
+  background-image: url(images/trip6.png);
+  -webkit-background-size:cover;
+  background-size:cover;
 }
