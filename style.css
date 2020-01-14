@@ -1059,9 +1059,10 @@ margin-top:-17px;
 }
 .footer .footer1 p{
   font-family:abul;
-  font-size:11px;
+  font-size:13px;
   color:#5d5d5d;
   font-weight:normal;
+  line-height:23px;
 }
 .footer .footer2 h1{
   font-family:kashem;
@@ -1073,7 +1074,8 @@ margin-top:-17px;
   display:block;
   color:#5d5d5d;
   font-family:abul;
-  font-size:11px;
+  font-size:13px;
+  line-height:23px;
 }
 .footer3{
   margin-left:-101px;
@@ -1102,12 +1104,36 @@ margin-top:-17px;
   color:#5d5d5d;
   font-weight:normal;
 }
+.footer4 .newsletter{
+  width:250px;
+  height:44px;
+  background-color:red;
+  border-radius:5px;
+  background-color:#f2f2f2;
+}
 .footer .footer4 input[type="text"]{
   background-color:#f2f2f2;
   width:178px;
   height:40px;
-  border-radius:5px;
+  float: left;
+
   border:1px solid transparent;
+  margin-left:2px;
+  margin-top:1px;
+}
+.footer .footer4 input[type="submit"]{
+  width:65px;
+  height:41px;
+  background-color:#006fe5;
+  float: left;
+  margin-top:1px;
+  color:#fff;
+  font-family:abul;
+  font-size:11px;
+  border:1px solid transparent;
+  border-radius:5px;
+  font-weight:bold;
+  cursor: pointer;
 }
 .footer .footer4 input[type="text"]::placeholder{
   font-family:abul;
